@@ -22,7 +22,7 @@ libra-state-view = { path = "../../../storage/state-view", version = "0.1.0" }
 libra-types = { path = "../../../types", version = "0.1.0" }
 move-vm-cache = { path = "../../move-vm/cache", version = "0.1.0" }
 move-vm-types = { path = "../../move-vm/types", version = "0.1.0" }
-parity-multiaddr = "0.7.2"
+parity-multiaddr = "0.7.3"
 stdlib = { path = "../../stdlib", version = "0.1.0" }
 transaction-builder = { path = "../../transaction-builder", version = "0.1.0"}
 vm = { path = "../../vm", version = "0.1.0" }
