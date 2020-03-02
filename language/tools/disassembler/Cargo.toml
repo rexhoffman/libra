@@ -17,7 +17,7 @@ vm = { path = "../../vm", version = "0.1.0" }
 
 codespan = "0.2.1"
 codespan-reporting = "0.2.1"
-structopt = "0.3.2"
+structopt = "0.3.11"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 
