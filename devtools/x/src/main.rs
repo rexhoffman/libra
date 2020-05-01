@@ -77,8 +77,8 @@ fn main() -> Result<()> {
     configure_logger();
     let args = Args::from_args();
 
-    #[allow(unused_variables)]
-    let context = xcontext::register_default_components(ContainerBuilder::new()).build();
+    // #[allow(unused_variables)]
+    // let context = xcontext::register_default_components(ContainerBuilder::new()).build();
 
     // the plan is to move the command builders in to the coi context, and simply extract the
     // the one command we need from coi to execute with the args.  like so:

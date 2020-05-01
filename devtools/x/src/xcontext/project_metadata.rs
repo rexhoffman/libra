@@ -35,7 +35,7 @@ fn default_as_true() -> bool {
     true
 }
 
-#[derive(Clone, Serialize, Deserialize, Debug, PartialEq, Eq)]
+#[derive(Clone, Serialize, Deserialize, Debug, PartialEq, Eq, Default)]
 #[serde(rename_all = "kebab-case")]
 pub struct WorkspaceConfig {
     /// Attributes to enforce on workspace crates
@@ -44,7 +44,7 @@ pub struct WorkspaceConfig {
     pub banned_direct_deps: HashMap<String, String>,
 }
 
-#[derive(Clone, Serialize, Deserialize, Debug, PartialEq, Eq)]
+#[derive(Clone, Serialize, Deserialize, Debug, PartialEq, Eq, Default)]
 #[serde(rename_all = "kebab-case")]
 pub struct EnforcedAttributesConfig {
     /// Ensure the authors of every workspace crate are set to this.
@@ -53,7 +53,7 @@ pub struct EnforcedAttributesConfig {
     pub license: Option<String>,
 }
 
-#[derive(Clone, Serialize, Deserialize, Debug, PartialEq, Eq)]
+#[derive(Clone, Serialize, Deserialize, Debug, PartialEq, Eq, Default)]
 #[serde(rename_all = "kebab-case")]
 pub struct Clippy {
     allowed: Vec<String>,
