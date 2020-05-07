@@ -11,7 +11,7 @@ edition = "2018"
 
 [dependencies]
 proptest = "0.9.6"
-serde-reflection = "0.1.0"
+serde-reflection = "0.2.0"
 serde_yaml = "0.8"
 structopt = "0.3.14"
 
