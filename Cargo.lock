@@ -1839,7 +1839,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "handlebars"
-version = "3.2.1"
+version = "3.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "log 0.4.8 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -3395,7 +3395,7 @@ dependencies = [
  "codespan-reporting 0.8.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "datatest-stable 0.1.0",
  "docgen 0.1.0",
- "handlebars 3.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "handlebars 3.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "itertools 0.9.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "libra-temppath 0.1.0",
  "libra-types 0.1.0",
@@ -6619,7 +6619,7 @@ dependencies = [
 "checksum guppy-summaries 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "5b906089a120dfba06ee51877d29b2219c112d07ff299e1462b2af205f4daa91"
 "checksum h2 0.2.5 (registry+https://github.com/rust-lang/crates.io-index)" = "79b7246d7e4b979c03fa093da39cfb3617a96bbeee6310af63991668d7e843ff"
 "checksum half 1.6.0 (registry+https://github.com/rust-lang/crates.io-index)" = "d36fab90f82edc3c747f9d438e06cf0a491055896f2a279638bb5beed6c40177"
-"checksum handlebars 3.2.1 (registry+https://github.com/rust-lang/crates.io-index)" = "6c8ae96a0e0dacf151557ccba95a7a80889f8e74a784484377739628fcdb3996"
+"checksum handlebars 3.3.0 (registry+https://github.com/rust-lang/crates.io-index)" = "86dbc8a0746b08f363d2e00da48e6c9ceb75c198ac692d2715fcbb5bee74c87d"
 "checksum headers 0.3.2 (registry+https://github.com/rust-lang/crates.io-index)" = "ed18eb2459bf1a09ad2d6b1547840c3e5e62882fa09b9a6a20b1de8e3228848f"
 "checksum headers-core 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "e7f66481bfee273957b1f20485a4ff3362987f85b2c236580d81b4eb7a326429"
 "checksum heck 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)" = "20564e78d53d2bb135c343b3f47714a56af2061f1c928fdb541dc7b9fdd94205"
