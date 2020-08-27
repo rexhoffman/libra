@@ -4828,7 +4828,7 @@ dependencies = [
 
 [[package]]
 name = "rocksdb"
-version = "0.15.0"
+version = "0.14.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "libc 0.2.76 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -5114,7 +5114,7 @@ dependencies = [
  "libra-workspace-hack 0.1.0",
  "once_cell 1.4.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "proptest 0.10.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "rocksdb 0.15.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "rocksdb 0.14.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "tempfile 3.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -7173,7 +7173,7 @@ dependencies = [
 "checksum reqwest 0.10.8 (registry+https://github.com/rust-lang/crates.io-index)" = "e9eaa17ac5d7b838b7503d118fa16ad88f440498bf9ffe5424e621f93190d61e"
 "checksum ring 0.16.15 (registry+https://github.com/rust-lang/crates.io-index)" = "952cd6b98c85bbc30efa1ba5783b8abf12fec8b3287ffa52605b9432313e34e4"
 "checksum ripemd160 0.9.1 (registry+https://github.com/rust-lang/crates.io-index)" = "2eca4ecc81b7f313189bf73ce724400a07da2a6dac19588b03c8bd76a2dcc251"
-"checksum rocksdb 0.15.0 (registry+https://github.com/rust-lang/crates.io-index)" = "23d83c02c429044d58474eaf5ae31e062d0de894e21125b47437ec0edc1397e6"
+"checksum rocksdb 0.14.0 (registry+https://github.com/rust-lang/crates.io-index)" = "61aa17a99a2413cd71c1106691bf59dad7de0cd5099127f90e9d99c429c40d4a"
 "checksum rusoto_autoscaling 0.45.0 (registry+https://github.com/rust-lang/crates.io-index)" = "7af1c42491edaa3b2582c6f3a0221f5ef4ed7a02c71cf1f614bb12877e1d44dd"
 "checksum rusoto_core 0.45.0 (registry+https://github.com/rust-lang/crates.io-index)" = "e977941ee0658df96fca7291ecc6fc9a754600b21ad84b959eb1dbbc9d5abcc7"
 "checksum rusoto_credential 0.45.0 (registry+https://github.com/rust-lang/crates.io-index)" = "09ac05563f83489b19b4d413607a30821ab08bbd9007d14fa05618da3ef09d8b"
