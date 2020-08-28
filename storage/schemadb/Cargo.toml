@@ -16,7 +16,7 @@ libra-metrics = { path = "../../common/metrics", version = "0.1.0" }
 libra-workspace-hack = { path = "../../common/workspace-hack", version = "0.1.0" }
 
 [dependencies.rocksdb]
-version = "0.14.0"
+version = "0.15.0"
 default-features = false
 features = ["lz4"]
 
