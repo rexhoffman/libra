@@ -12,7 +12,7 @@ edition = "2018"
 [dependencies]
 anyhow = "1.0.33"
 rand = "0.7.3"
-serde = { version = "1.0.116", features = ["rc"], default-features = false }
+serde = { version = "1.0.117", features = ["rc"], default-features = false }
 structopt = "0.3.18"
 thiserror = "1.0.21"
 toml = { version = "0.5.6", default-features = false }
