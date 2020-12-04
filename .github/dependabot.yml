@@ -1,24 +1,9 @@
 version: 2
 updates:
-  - package-ecosystem: "docker"
-    directory: "/docker/"
-    schedule:
-      interval: "daily"
-    labels:
-      - "docker"
-      - "dependencies"
-
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    labels:
-      - "github-actions"
-      - "dependencies"
-    open-pull-requests-limit: 15
-
   - package-ecosystem: "cargo"
     directory: "/"
+    allow:
+      - dependency-type: all
     schedule:
       interval: "daily"
     labels:
@@ -28,4 +13,145 @@ updates:
       - dependency-name: "codespan*"
       - dependency-name: "libfuzzer-sys"
       - dependency-name: "bindgen"
+    open-pull-requests-limit: 15
+
+  - package-ecosystem: "cargo"
+    directory: "/"
+    target-branch: "release-1.0"
+    allow:
+      - dependency-type: all
+    schedule:
+      interval: "daily"
+    labels:
+      - "cargo"
+      - "dependencies"
+    ignore:
+      - dependency-name: "codespan*"
+      - dependency-name: "libfuzzer-sys"
+      - dependency-name: "bindgen"
+    open-pull-requests-limit: 15
+
+  # Dockerfiles.
+
+  - package-ecosystem: "docker"
+    directory: "/docker/ci/alpine"
+    schedule:
+      interval: "daily"
+    labels:
+      - "docker"
+      - "dependencies"
+
+  - package-ecosystem: "docker"
+    directory: "/docker/ci/arch"
+    schedule:
+      interval: "daily"
+    labels:
+      - "docker"
+      - "dependencies"
+
+  - package-ecosystem: "docker"
+    directory: "/docker/ci/centos"
+    schedule:
+      interval: "daily"
+    labels:
+      - "docker"
+      - "dependencies"
+
+  - package-ecosystem: "docker"
+    directory: "/docker/ci/cirleci"
+    schedule:
+      interval: "daily"
+    labels:
+      - "docker"
+      - "dependencies"
+
+  - package-ecosystem: "docker"
+    directory: "/docker/client"
+    schedule:
+      interval: "daily"
+    labels:
+      - "docker"
+      - "dependencies"
+
+  - package-ecosystem: "docker"
+    directory: "/docker/cluster-test"
+    schedule:
+      interval: "daily"
+    labels:
+      - "docker"
+      - "dependencies"
+
+  - package-ecosystem: "docker"
+    directory: "/docker/init"
+    schedule:
+      interval: "daily"
+    labels:
+      - "docker"
+      - "dependencies"
+
+  - package-ecosystem: "docker"
+    directory: "/docker/logstash"
+    schedule:
+      interval: "daily"
+    labels:
+      - "docker"
+      - "dependencies"
+
+  - package-ecosystem: "docker"
+    directory: "/docker/mint"
+    schedule:
+      interval: "daily"
+    labels:
+      - "docker"
+      - "dependencies"
+
+  - package-ecosystem: "docker"
+    directory: "/docker/safety-rules"
+    schedule:
+      interval: "daily"
+    labels:
+      - "docker"
+      - "dependencies"
+
+  - package-ecosystem: "docker"
+    directory: "/docker/tools"
+    schedule:
+      interval: "daily"
+    labels:
+      - "docker"
+      - "dependencies"
+
+  - package-ecosystem: "docker"
+    directory: "/docker/validator"
+    schedule:
+      interval: "daily"
+    labels:
+      - "docker"
+      - "dependencies"
+
+  - package-ecosystem: "docker"
+    directory: "/docker/vault"
+    schedule:
+      interval: "daily"
+    labels:
+      - "docker"
+      - "dependencies"
+
+  - package-ecosystem: "docker"
+    directory: "/docker/validator-dynamic"
+    schedule:
+      interval: "daily"
+    labels:
+      - "docker"
+      - "dependencies"
+
+  # Github Actions
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "github-actions"
+      - "dependencies"
     open-pull-requests-limit: 15
