@@ -1,0 +1,15 @@
+name: test-env
+
+on:
+  push:
+    branches: [main, master, release-*, gha-test-*]
+  pull_request:
+    branches: [main, master, release-*, gha-test-*]
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  max_threads: 16
+  pre_command: cd /opt/git/diem/
