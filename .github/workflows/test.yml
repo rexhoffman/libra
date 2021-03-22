@@ -16,7 +16,7 @@ jobs:
   prepare:
     runs-on: ubuntu-latest
     environment:
-      name: test-1
+      name: TEST
       url: https://github.com
     steps:
       - uses: actions/checkout@v2
