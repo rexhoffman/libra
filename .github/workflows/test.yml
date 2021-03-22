@@ -29,4 +29,4 @@ jobs:
         run: |
           echo $(($val + 1))
         env:
-          val: ${{ secret.TEST }}
+          val: ${{ secrets.TEST }}
