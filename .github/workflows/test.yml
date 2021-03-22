@@ -1,0 +1,32 @@
+name: test
+
+on:
+  push:
+    branches: [test]
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  max_threads: 16
+  pre_command: cd /opt/git/diem/
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    environment:
+      name: test-1
+      url: https://github.com
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          # This ensures that the tip of the PR is checked out instead of the merge between the base ref and the tip
+          # On `push` this value will be empty and will "do-the-right-thing"
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0 #get all the history!!!
+      - name: Git Hooks and Checks
+        run: |
+          echo $(($val + 1))
+        env:
+          val: ${{ secret.TEST }}
