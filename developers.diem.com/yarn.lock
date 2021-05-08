@@ -2481,13 +2481,12 @@
     xterm-dfuzr "^4.9.1"
     yargs-parser "^19.0.1"
 
-"@libra-opensource/diem-docusaurus-components@0.1.12":
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/@libra-opensource/diem-docusaurus-components/-/diem-docusaurus-components-0.1.12.tgz#d4e37f187f6e7fb9860835f37bed684bd1e597a0"
-  integrity sha512-uvcQU9dqqFOVn30Xje/huuchUQKcr2b+BLYV3g37B1tErenumpj42NKDTyp2XoaK7wZBKvUqHyynCEKmb16e7w==
+"@libra-opensource/diem-docusaurus-components@0.1.19":
+  version "0.1.19"
+  resolved "https://registry.yarnpkg.com/@libra-opensource/diem-docusaurus-components/-/diem-docusaurus-components-0.1.19.tgz#2059f38ef7f5f2d1979fa883f5bc6392ee720fbd"
+  integrity sha512-RyN4AfsrPEtyhe0GF9128qpOHaop3/xreQNWRvGSj7UC1MszjU2Xh8iX1uDU5PDkuWspMfSYOlYaKD341V5EwQ==
   dependencies:
     docsearch.js "^2.6.3"
-    lodash "^4.17.20"
     prism-react-renderer "^1.1.1"
     prop-types "^15.7.2"
     react "^16.13.1"
@@ -14114,9 +14113,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 ua-parser-js@^0.7.18:
-  version "0.7.23"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.23.tgz#704d67f951e13195fbcd3d78818577f5bc1d547b"
-  integrity sha512-m4hvMLxgGHXG3O3fQVAyyAQpZzDOvwnhOTjYz5Xmr7r/+LpkNy3vJXdVRWgd1TkAb7NGROZuSy96CrlNVjA7KA==
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 unherit@^1.0.4:
   version "1.1.3"
