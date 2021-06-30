@@ -33,7 +33,7 @@ futures-sink = { version = "0.3.13", features = ["alloc", "default", "std"] }
 futures-util = { version = "0.3.12", features = ["alloc", "async-await", "async-await-macro", "channel", "default", "futures-channel", "futures-io", "futures-macro", "futures-sink", "io", "memchr", "proc-macro-hack", "proc-macro-nested", "sink", "slab", "std"] }
 getrandom = { version = "0.2.2", default-features = false, features = ["std"] }
 hashbrown = { version = "0.9.1", features = ["ahash", "default", "inline-more", "raw"] }
-hyper = { version = "0.14.4", features = ["client", "default", "full", "h2", "http1", "http2", "runtime", "server", "socket2", "stream", "tcp"] }
+hyper = { version = "0.14.9", features = ["client", "default", "full", "h2", "http1", "http2", "runtime", "server", "socket2", "stream", "tcp"] }
 indexmap = { version = "1.6.2", default-features = false, features = ["std"] }
 itertools = { version = "0.10.0", features = ["default", "use_alloc", "use_std"] }
 itoa = { version = "0.4.7", features = ["default", "std"] }
@@ -91,7 +91,7 @@ futures-sink = { version = "0.3.13", features = ["alloc", "default", "std"] }
 futures-util = { version = "0.3.12", features = ["alloc", "async-await", "async-await-macro", "channel", "default", "futures-channel", "futures-io", "futures-macro", "futures-sink", "io", "memchr", "proc-macro-hack", "proc-macro-nested", "sink", "slab", "std"] }
 getrandom = { version = "0.2.2", default-features = false, features = ["std"] }
 hashbrown = { version = "0.9.1", features = ["ahash", "default", "inline-more", "raw"] }
-hyper = { version = "0.14.4", features = ["client", "default", "full", "h2", "http1", "http2", "runtime", "server", "socket2", "stream", "tcp"] }
+hyper = { version = "0.14.9", features = ["client", "default", "full", "h2", "http1", "http2", "runtime", "server", "socket2", "stream", "tcp"] }
 indexmap = { version = "1.6.2", default-features = false, features = ["std"] }
 itertools = { version = "0.10.0", features = ["default", "use_alloc", "use_std"] }
 itoa = { version = "0.4.7", features = ["default", "std"] }
@@ -152,7 +152,7 @@ futures-sink = { version = "0.3.13", features = ["alloc", "default", "std"] }
 futures-util = { version = "0.3.12", features = ["alloc", "async-await", "async-await-macro", "channel", "default", "futures-channel", "futures-io", "futures-macro", "futures-sink", "io", "memchr", "proc-macro-hack", "proc-macro-nested", "sink", "slab", "std"] }
 getrandom = { version = "0.2.2", default-features = false, features = ["std"] }
 hashbrown = { version = "0.9.1", features = ["ahash", "default", "inline-more", "raw"] }
-hyper = { version = "0.14.4", features = ["client", "default", "full", "h2", "http1", "http2", "runtime", "server", "socket2", "stream", "tcp"] }
+hyper = { version = "0.14.9", features = ["client", "default", "full", "h2", "http1", "http2", "runtime", "server", "socket2", "stream", "tcp"] }
 indexmap = { version = "1.6.2", default-features = false, features = ["std"] }
 itertools = { version = "0.10.0", features = ["default", "use_alloc", "use_std"] }
 itoa = { version = "0.4.7", features = ["default", "std"] }
@@ -210,7 +210,7 @@ futures-sink = { version = "0.3.13", features = ["alloc", "default", "std"] }
 futures-util = { version = "0.3.12", features = ["alloc", "async-await", "async-await-macro", "channel", "default", "futures-channel", "futures-io", "futures-macro", "futures-sink", "io", "memchr", "proc-macro-hack", "proc-macro-nested", "sink", "slab", "std"] }
 getrandom = { version = "0.2.2", default-features = false, features = ["std"] }
 hashbrown = { version = "0.9.1", features = ["ahash", "default", "inline-more", "raw"] }
-hyper = { version = "0.14.4", features = ["client", "default", "full", "h2", "http1", "http2", "runtime", "server", "socket2", "stream", "tcp"] }
+hyper = { version = "0.14.9", features = ["client", "default", "full", "h2", "http1", "http2", "runtime", "server", "socket2", "stream", "tcp"] }
 indexmap = { version = "1.6.2", default-features = false, features = ["std"] }
 itertools = { version = "0.10.0", features = ["default", "use_alloc", "use_std"] }
 itoa = { version = "0.4.7", features = ["default", "std"] }
